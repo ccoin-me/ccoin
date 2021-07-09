@@ -1,14 +1,14 @@
 *.tar.gz
 
 *.exe
-src/litecoin
-src/litecoind
-src/litecoin-cli
-src/litecoin-tx
-src/litecoin-wallet
-src/test/test_litecoin
-src/test/test_litecoin_fuzzy
-src/qt/test/test_litecoin-qt
+src/ccoin
+src/ccoind
+src/ccoin-cli
+src/ccoin-tx
+src/ccoin-wallet
+src/test/test_ccoin
+src/test/test_ccoin_fuzzy
+src/qt/test/test_ccoin-qt
 
 # autoreconf
 Makefile.in
@@ -83,13 +83,13 @@ src/qt/bitcoin-qt.includes
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-litecoin-qt
-litecoin-Qt.app
+ccoin-qt
+ccoin-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-litecoin-qt_test
+ccoin-qt_test
 
 # Resources cpp
 qrc_*.cpp
@@ -101,7 +101,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_litecoin.coverage/
+test_ccoin.coverage/
 total.coverage/
 coverage_percent.txt
 
