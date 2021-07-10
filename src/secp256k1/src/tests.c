@@ -2388,7 +2388,7 @@ void ecmult_const_random_mult(void) {
     /* random starting point A (on the curve) */
     secp256k1_ge a = SECP256K1_GE_CONST(
         0x6d986544, 0x57ff52b8, 0xcf1b8126, 0x5b802a5b,
-        0xa97f9263, 0xb1e88044, 0x93351325, 0x91bc450a,
+        0xa97f9263, 0xb1e88044, 0x73351325, 0x91bc450a,
         0x535c59f7, 0x325e5d2b, 0xc391fbe8, 0x3c12787c,
         0x337e4a98, 0xe82a9011, 0x0123ba37, 0xdd769c7d
     );

@@ -768,8 +768,8 @@ static UniValue getblockheader(const JSONRPCRequest& request)
                     },
                 },
                 RPCExamples{
-                    HelpExampleCli("getblockheader", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a933562ca893656d4afb38b44ee3\"")
-            + HelpExampleRpc("getblockheader", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a933562ca893656d4afb38b44ee3\"")
+                    HelpExampleCli("getblockheader", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a733562ca893656d4afb38b44ee3\"")
+            + HelpExampleRpc("getblockheader", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a733562ca893656d4afb38b44ee3\"")
                 },
             }.ToString());
 
@@ -874,8 +874,8 @@ static UniValue getblock(const JSONRPCRequest& request)
                     },
                 },
                 RPCExamples{
-                    HelpExampleCli("getblock", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a933562ca893656d4afb38b44ee3\"")
-            + HelpExampleRpc("getblock", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a933562ca893656d4afb38b44ee3\"")
+                    HelpExampleCli("getblock", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a733562ca893656d4afb38b44ee3\"")
+            + HelpExampleRpc("getblock", "\"e2acdf2dd19a702e5d12a925f1e984b01e47a733562ca893656d4afb38b44ee3\"")
                 },
             }.ToString());
 
