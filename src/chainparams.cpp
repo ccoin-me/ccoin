@@ -110,7 +110,7 @@ public:
         m_assumed_blockchain_size = 22;
         m_assumed_chain_state_size = 3;
 
-        genesis = CreateGenesisBlock(1625819306, 170338, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1626361200, 170338, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x333dd16b27653d1e4543daf49a9000659f040f6f9393b78060a412ea6e2b5873"));
         assert(genesis.hashMerkleRoot == uint256S("0x70a0fdc84b90b7e9afe8543ad933c894f24b7509fe2ba268477c0e8ea5f30a00"));
